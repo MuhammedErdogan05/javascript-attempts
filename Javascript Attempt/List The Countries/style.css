@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(222, 157, 157);
+}
+
+#bayrak,
+#ulkeisim {
+  display: inline;
+}
+
+#bayrakulke > * {
+  font-size: 24px;
+  max-width: 500px;
+}
+
+button, #search{
+  font-size: 16px;
+  padding: 12px;
+}
+
+#search{
+  width: 100%;
+  max-width: 300px;
+}

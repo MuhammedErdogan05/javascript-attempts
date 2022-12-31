@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+body {
+  background-color: dimgray;
+}
+
+#container {
+  margin: auto;
+  max-width: 300px;
+  text-align: center;
+  border: 0px;
+}
+
+#input-box {
+  width: 100%;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 12px;
+}
+
+button {
+  display: flex;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+#note > * {
+  margin-top: 2px;
+  font-size: 8px;
+  text-align: left;
+  border-radius: 4px;
+  padding: 2px;
+  margin-bottom: 8px;
+  background-color: red;
+}

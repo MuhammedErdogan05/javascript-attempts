@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.bool {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#neg,
+#poz,
+#value {
+  font-size: 24px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+#value {
+  padding-right: 5px;
+}
+
+#decrease {
+  padding: 10px;
+  border: 0px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: rgb(217, 221, 233);
+}
